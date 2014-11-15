@@ -8,6 +8,16 @@
 	src: url(../fonts/Raleway-Thin.ttf);
 }
 
+@font-face {
+	font-family: 'Raleway Regular';
+	src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Raleway Light';
+	src: url(../fonts/Raleway-Light.ttf);
+}
+
 body {
 	font-family: 'Myriad Pro';
 }
@@ -31,12 +41,15 @@ header {
 }
 
 .menu {
-	margin-top: 30px;
+	margin-top: 32px;
+	margin-left: 30px;
 }
 
 .menu>li>a {
 	padding: 5px 11px;
 	color: #6d6e72;
+	font-family: 'Raleway Light';
+	font-size: 15px;
 }
 
 .menu-border-right {
@@ -47,6 +60,13 @@ header {
 	margin-top: 30px;
 	padding: 5px 2px;
 	color: #6d6e72;
+	font-family: 'Raleway Light';
+	font-size: 15px;
+}
+
+.menu-toggle-text {
+    float: left;
+    margin: 4px;
 }
 /*HEADER*/
 
