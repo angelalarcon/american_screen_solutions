@@ -107,8 +107,8 @@ header {
 
 .carousel-slide1-tittle {
 	position: absolute;
-	top:147px;
-	left: 120px;
+	top:23%;
+	left: 9%;
 	
 	width: 669px;
 	height: 88px;
@@ -127,8 +127,8 @@ header {
 
 .carousel-slide1-product {
 	position: absolute;
-	top:316px;
-	left:452px;
+	top:50%;
+	left:35%;
 	
 	width: 376px;
 	height: 86px;
@@ -151,8 +151,8 @@ header {
 
 .carousel-slide1-button {
 	position: absolute;
-	top:441px;
-	left:474px;
+	top:69.5%;
+	left:37%;
 	
 	width: 329px;
 	height: 52px;
@@ -169,13 +169,13 @@ header {
 }
 
 .indicators {
-	bottom: 13px;
+	bottom: 2%;
 }
 
 .control-left {
 	position: absolute;
-	top:330px;
-	left:119px;
+	top:52%;
+	left:9.4%;
 	
 	width: 33px;
 	height: 60px;
@@ -186,8 +186,8 @@ header {
 
 .control-right {
 	position: absolute;
-	top:330px;
-	right:119px;
+	top:52%;
+	right:9.4%;
 	
 	width: 33px;
 	height: 60px;
@@ -207,12 +207,17 @@ header {
 
 .img-legacy-logo {
 	position: absolute;
-	bottom:48px;
-	right:149px;	
+	bottom:7%;
+	right:11.6%;	
 }
 /*CARROUSEL*/
 
 /*STEPS*/
+
+#steps{
+	background-color: #f6f5f3;
+}
+
 .steps-top-line {
 	border-top: 1px solid #6e6f73;
 }
@@ -221,7 +226,6 @@ header {
 	font-family: 'Raleway Light';
 	font-size: 25px;
 	color: #6e6f73;
-	width: 408px;
 	margin-top: 33px;
 }
 
@@ -231,5 +235,40 @@ header {
 
 .steps-text-bold {
 	font-family: 'Raleway Bold';
+}
+
+.steps {
+	margin-top: 33px;
+	font-family: 'Raleway Regular';
+	font-size: 18px;
+}
+
+.col-step {
+	padding-left: 24px;
+}
+
+.step-tittle {
+	color:#f76140;
+	margin-top: 38px;
+}
+
+.step-tittle-number {
+	float: left;
+	margin-right: 2px;
+}
+
+.step-tittle-text {
+	line-height: 20px;
+	/*letter-spacing: 1px;*/
+}
+
+.step-text {
+	font-size: 16px;
+	margin-top: 20px;
+	color: #6e6e6e;
+}
+
+.step-links {
+	margin-top: 25px;
 }
 /*STEPS*/
