@@ -196,10 +196,13 @@ header {
 	padding: 12px 5px 12px 5px;
 }
 
-.img-control-left {
-}
-
-.img-control-right {
+.flip-horizontal {
+	-moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
 }
 
 .img-legacy-logo {
@@ -208,3 +211,25 @@ header {
 	right:149px;	
 }
 /*CARROUSEL*/
+
+/*STEPS*/
+.steps-top-line {
+	border-top: 1px solid #6e6f73;
+}
+
+.steps-tittle {
+	font-family: 'Raleway Light';
+	font-size: 25px;
+	color: #6e6f73;
+	width: 408px;
+	margin-top: 33px;
+}
+
+.steps-bottom-line {
+	border-bottom: 1px solid #6e6f73;
+}
+
+.steps-text-bold {
+	font-family: 'Raleway Bold';
+}
+/*STEPS*/
