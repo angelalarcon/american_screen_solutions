@@ -218,13 +218,17 @@ header {
 	background-color: #f6f5f3;
 }
 
+.step {
+	padding-left: 23px;
+}
+
 .steps-top-line {
 	border-top: 1px solid #6e6f73;
 }
 
 .steps-tittle {
 	font-family: 'Raleway Light';
-	font-size: 25px;
+	font-size: 24px;
 	color: #6e6f73;
 	margin-top: 33px;
 }
