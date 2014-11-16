@@ -507,3 +507,41 @@ header {
 	vertical-align: bottom;
 }
 /*TILES*/
+/*FOOTER*/
+.raleway-light {
+	font-family: 'Raleway Light';
+}
+footer {
+	font-size: 20px;
+}
+footer a {
+	color: #000;
+}
+
+footer a:hover {
+	color: #000;
+}
+
+footer .links-box {
+	margin-top: 30px;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+}
+
+footer .links-box .main-link {
+	font-size: 18px;
+}
+
+footer .reserved {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+footer p.social {
+	margin-bottom: 20px;
+}
+
+footer p.social a:hover {
+	opacity: 0.8;
+}
+/*FOOTER*/
