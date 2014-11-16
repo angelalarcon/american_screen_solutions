@@ -223,7 +223,7 @@ header {
 
 /*STEPS*/
 
-#steps{
+.square-section {
 	background-image: url(../images/square_background.png);
 	background-color: #f6f5f3;
 	position: relative;
@@ -293,15 +293,14 @@ header {
 .step-links div ul li {
 	margin-bottom: 5px;
 }
-
-.tiles-shadow {
-	width: 100%;
-}
 /*STEPS*/
 /*TILES*/
-#tiles{
+.gray-section {
 	background-color: #ebebeb;
+	position: relative;
+	padding: 40px 0;
 }
+
 .tiles-img-1 {
 	width: 434px;
 	height: 528px;
@@ -328,5 +327,17 @@ header {
 	height: 515px;
 	margin: 7px;
 	border: 2px solid white;
+}
+
+.gray-shadow {
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+.gray-shadow-up {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
 /*TILES*/
