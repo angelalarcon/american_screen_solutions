@@ -87,11 +87,11 @@ header {
 
 /*CARROUSEL*/
 
-.carrousel-img {
+#carousel-home .carrousel-img {
 	width: 100%;
 }
 
-.carousel-indicators li {
+#carousel-home .carousel-indicators li {
 	width: 51px;
 	height: 6px;
 	margin-right: 7px;
@@ -101,7 +101,7 @@ header {
 	
 }
 
-.carousel-indicators .active{
+#carousel-home .carousel-indicators .active{
 	width: 51px;
 	height: 6px;
 	margin-right: 7px;
@@ -110,7 +110,7 @@ header {
 	background-color: #3e5d9e;
 }
 
-.carousel-slide1-tittle {
+#carousel-home .carousel-slide1-tittle {
 	position: absolute;
 	top:23%;
 	left: 9%;
@@ -130,7 +130,7 @@ header {
 
 }
 
-.carousel-slide1-product {
+#carousel-home .carousel-slide1-product {
 	position: absolute;
 	top:50%;
 	left:35%;
@@ -150,11 +150,11 @@ header {
 	letter-spacing: 1.5px;
 }
 
-.carousel-slide1-text-bold {
+#carousel-home .carousel-slide1-text-bold {
 	font-family: 'Raleway SemiBold';
 }
 
-.carousel-slide1-button {
+#carousel-home .carousel-slide1-button {
 	position: absolute;
 	top:69.5%;
 	left:37%;
@@ -173,15 +173,15 @@ header {
 	letter-spacing: 1.5px;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+#carousel-home .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 	width: 100%;
 }
 
-.indicators {
+#carousel-home .indicators {
 	bottom: 2%;
 }
 
-.control-left {
+#carousel-home .control-left {
 	position: absolute;
 	top:52%;
 	left:9.4%;
@@ -193,7 +193,7 @@ header {
 	padding: 12px 5px 12px 5px;
 }
 
-.control-right {
+#carousel-home .control-right {
 	position: absolute;
 	top:52%;
 	right:9.4%;
@@ -363,4 +363,77 @@ header {
 	padding: 10px;
 	height: 100%;
 }
+
+#carousel-slide .carousel-control {
+	position: absolute;
+	top: 50%;
+	background: none;
+	width: 21px;
+	height: 37px;
+}
+
+#carousel-slide .carousel-control.left {
+	left: 20px;
+}
+
+#carousel-slide .carousel-control.right {
+	right: 20px;
+}
+
+#carousel-slide .carousel-indicators .active {
+	background-color: #F9512C;
+}
+
+#carousel-slide .carousel-indicators li {
+	background-color: #fff;
+	margin: 0 5px;
+	border: none;
+	width: 15px;
+	height: 15px;
+}
+
+#carousel-slide .carousel-indicators {
+	bottom: 100px;
+	right: 20px;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	left: initial;
+}
+
+.slide-border .slide-logo {
+	position: absolute;
+}
+
+.slide-border p {
+	font-family: 'Raleway Regular';
+	position: absolute;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.slide-border .left {
+	left: 20px;
+}
+
+.slide-border .right {
+	right: 20px;
+}
+
+.slide-border .bottom {
+	bottom: 20px;
+}
+
+.slide-border .top {
+	top: 20px;
+}
+
+.slide-border p.big {
+	font-size: 40px;
+}
+
+.slide-border .check {
+	margin: -15px 5px 0;
+}
+
 /*TILES*/
