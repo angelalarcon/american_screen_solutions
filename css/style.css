@@ -293,6 +293,21 @@ header {
 .step-links div ul li {
 	margin-bottom: 5px;
 }
+
+.step-links div ul li a {
+	color: #000;
+	font-weight: bold;
+}
+
+.step-links div ul li a:hover {
+	color: #000;
+}
+
+#three {
+	margin-top: -3px;
+	display: inline-block;
+	vertical-align: top;
+}
 /*STEPS*/
 /*TILES*/
 .gray-section {
