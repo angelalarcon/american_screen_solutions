@@ -43,7 +43,7 @@ header {
 	top: 0;
 	width: 100%;
 	background-color: white;
-	z-index: 2;
+	z-index: 99;
 }
 .header {
 	height: 84px;
@@ -173,6 +173,10 @@ header {
 	letter-spacing: 1.5px;
 }
 
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+}
+
 .indicators {
 	bottom: 2%;
 }
@@ -220,7 +224,10 @@ header {
 /*STEPS*/
 
 #steps{
+	background-image: url(../images/square_background.png);
 	background-color: #f6f5f3;
+	position: relative;
+	padding: 20px 0;
 }
 
 .step {
@@ -287,13 +294,13 @@ header {
 	margin-bottom: 5px;
 }
 
-.step-shadow {
-	margin-top: 36px;
+.tiles-shadow {
+	width: 100%;
 }
 /*STEPS*/
 /*TILES*/
 #tiles{
-	background-color: #f6f5f3;
+	background-color: #ebebeb;
 }
 .tiles-img-1 {
 	width: 434px;
