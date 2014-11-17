@@ -92,6 +92,8 @@ header .modal-dialog .modal-content {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	padding: 30px 20px;
+	z-index: 99;
+	position: relative;
 }
 
 header .modal-dialog .modal-content .main-link {
@@ -752,7 +754,7 @@ footer p.social a:hover {
 	height: 20px;
 	width: 100%;
 	overflow: hidden;
-	z-index: 100;
+	z-index: 10;
 	top: -20px;
 }
 
