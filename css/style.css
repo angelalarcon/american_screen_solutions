@@ -37,6 +37,11 @@ body {
 	font-family: 'Myriad Pro';
 }
 
+a:focus {
+	border: none;
+	outline: 0;
+}
+
 /*HEADER*/
 header {
 	position: fixed;
@@ -44,24 +49,30 @@ header {
 	width: 100%;
 	background-color: white;
 	z-index: 99;
-}
-.header {
-	height: 84px;
-	margin-bottom: 0px;
-	border-radius: 0px;
+	padding: 15px 0;
 }
 
-.logo {
-	margin-top: 12px;
+header a {
+	text-decoration: none !important;
 }
 
-.menu {
-	margin-top: 32px;
-	margin-left: 30px;
+header .menu-links {
+	padding: 36px 10px;
+	line-height: 50px;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
 }
 
-.menu>li>a {
-	padding: 5px 11px;
+header .menu-links:hover {
+	border-right: 1px solid #dadada;
+	border-left: 1px solid #dadada;
+	background-color: transparent;
+	background-color: #fff;
+	position: relative;
+	z-index: 999;
+}
+
+header .menu-links {
 	color: #6d6e72;
 	font-family: 'Raleway Light';
 	font-size: 15px;
@@ -72,7 +83,7 @@ header {
 }
 
 .menu-toggle {
-	margin-top: 30px;
+	line-height: 40px;
 	padding: 5px 2px;
 	color: #6d6e72;
 	font-family: 'Raleway Light';
@@ -82,6 +93,65 @@ header {
 .menu-toggle-text {
     float: left;
     margin: 4px;
+}
+
+.short-borders {
+	position: absolute;
+	background-color: #dadada;
+	width: 1px;
+	height: 20px;
+	top: 31px;
+}
+
+.short-borders.left {
+	left: 0;
+}
+
+.short-borders.right {
+	right: 0;
+}
+
+.bordered-li {
+	margin: 0 -1px;
+}
+
+.hover-dropdown {
+	top: 100%;
+	display: none;
+	position: absolute;
+	padding: 20px;
+	background-color: #fff;
+	width: 100%;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	margin-top: -1px;
+}
+
+.hover-dropdown a {
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+}
+
+.separator {
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	left: -7px;
+	top: 0;
+	background-color: #acacac;
+}
+
+#doors-hover:hover,
+#windows-hover:hover,
+#outdoors-hover:hover {
+	display: block;
+}
+
+#doors:hover + #doors-hover,
+#windows:hover + #windows-hover,
+#outdoors:hover + #outdoors-hover {
+	display: block;
 }
 /*HEADER*/
 

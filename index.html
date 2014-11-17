@@ -19,7 +19,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar header" role="navigation">
+      <!-- <nav class="navbar header" role="navigation">
         <div class="container">
           <div class="row">
             <div class="col-md-4 text-center">
@@ -28,19 +28,24 @@
             <div class="col-md-4">
               <div class="menu-container">
                 <ul class="nav navbar-nav menu">
-                  <li class="dropdown menu-border-right">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      DOORS <span class="caret"></span>
+                  <li>
+                    <a href="#">
+                      DOORS
+                      <span class="caret"></span>
                     </a>
                   </li>
-                  <li class="dropdown menu-border-right">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      WINDOWS <span class="caret"></span>
+                  <li class="bordered-li">
+                    <div class="short-borders left"></div>
+                    <a href="#">
+                      WINDOWS
+                      <span class="caret"></span>
                     </a>
+                    <div class="short-borders right"></div>
                   </li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      OUTDOORS <span class="caret"></span> 
+                  <li>
+                    <a href="#">
+                      OUTDOORS
+                      <span class="caret"></span>
                     </a>
                   </li>
                 </ul> 
@@ -49,12 +54,68 @@
             <div class="col-md-2 col-md-offset-2">
               <div class="menu-toggle">
                 <div class="menu-toggle-text">MENU</div>
-                <img src="images/menu_icon.png" alt="menu_icon">
+                <a href="#">
+                  <img src="images/menu_icon.png" alt="menu_icon">
+                </a>
               <div>
             </div>
           </div>
         </div>
-      </nav>
+      </nav> -->
+      <div class="col-md-4 text-center">
+        <img class="logo" src="images/logo.png" alt="logo">
+      </div>
+      <a class="menu-links" id="doors" href="#">
+        DOORS
+        <span class="caret"></span>
+      </a>
+      <div class="hover-dropdown text-center" id="doors-hover">
+        <a href="#">
+          <img src="images/doors_img_1.jpg" alt="">
+        </a>
+        <a href="#">
+          <div class="separator"></div>
+          <img src="images/doors_img_2.jpg" alt="">
+        </a>
+      </div>
+      <a class="menu-links" id="windows" href="#">
+        WINDOWS
+        <span class="caret"></span>
+      </a>
+      <div class="hover-dropdown text-center" id="windows-hover">
+        <a href="#">
+          <img src="images/phantom_img_2.jpg" alt="">
+        </a>
+        <a href="#">
+          <div class="separator"></div>
+          <img src="images/hunterdouglas_img.jpg" alt="">
+        </a>
+      </div>
+      <a class="menu-links" id="outdoors" href="#">
+        OUTDOORS
+        <span class="caret"></span>
+      </a>
+      <div class="hover-dropdown text-center" id="outdoors-hover">
+        <a href="#">
+          <img src="images/phantom_img.jpg" alt="">
+        </a>
+        <a href="#">
+          <div class="separator"></div>
+          <img src="images/eclipse_img.jpg" alt="">
+        </a>
+        <a href="#">
+          <div class="separator"></div>
+          <img src="images/nautilus_img.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-2 pull-right">
+        <div class="menu-toggle">
+          <div class="menu-toggle-text">MENU</div>
+          <a href="#">
+            <img src="images/menu_icon.png" alt="menu_icon">
+          </a>
+        <div>
+      </div>
     </header>
     <section id="carousel">
       <div id="carousel-home" class="carousel slide" data-ride="carousel">
@@ -63,11 +124,12 @@
           <li data-target="#carousel-home" data-slide-to="1"></li>
           <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-home" data-slide-to="2"></li>
+          <li data-target="#carousel-home" data-slide-to="3"></li>
+          <li data-target="#carousel-home" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-          <!-- SLIDE1 -->
           <div class="item active">
             <img src="images/kitchen_img.jpg" alt="carrousel1">
             <div class="carousel-slide1">
@@ -78,14 +140,14 @@
               <div class="carousel-slide1-product text-center">
                 <span>PHANTOM</span> <span class="carousel-slide1-text-bold">DOOR</span> <span>SCREENS</span>
               </div>
-              <div class="carousel-slide1-button text-center">
-                <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
-              </div>
+              <a href="#">
+                <div class="carousel-slide1-button text-center">
+                  <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
+                </div>
+              </a>
               <img class="img-legacy-logo" src="images/legacy_logo.png">
             </div>
           </div>
-          <!-- SLIDE1 -->
-          <!-- SLIDE2 -->
           <div class="item">
             <img src="images/kitchen_img.jpg" alt="carrousel1">
             <div class="carousel-slide1">
@@ -96,14 +158,14 @@
               <div class="carousel-slide1-product text-center">
                 <span>PHANTOM</span> <span class="carousel-slide1-text-bold">DOOR</span> <span>SCREENS</span>
               </div>
-              <div class="carousel-slide1-button text-center">
-                <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
-              </div>
+              <a href="#">
+                <div class="carousel-slide1-button text-center">
+                  <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
+                </div>
+              </a>
               <img class="img-legacy-logo" src="images/legacy_logo.png">
             </div>
           </div>
-          <!-- SLIDE2 -->
-          <!-- SLIDE3 -->
           <div class="item">
             <img src="images/kitchen_img.jpg" alt="carrousel1">
             <div class="carousel-slide1">
@@ -114,13 +176,50 @@
               <div class="carousel-slide1-product text-center">
                 <span>PHANTOM</span> <span class="carousel-slide1-text-bold">DOOR</span> <span>SCREENS</span>
               </div>
-              <div class="carousel-slide1-button text-center">
-                <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
-              </div>
+              <a href="#">
+                <div class="carousel-slide1-button text-center">
+                  <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
+                </div>
+              </a>
               <img class="img-legacy-logo" src="images/legacy_logo.png">
             </div>
           </div>
-          <!-- SLIDE3 -->
+          <div class="item">
+            <img src="images/kitchen_img.jpg" alt="carrousel1">
+            <div class="carousel-slide1">
+              <div class="carousel-slide1-tittle">
+                There's nothing like being able to<br>
+                leave your door wide open to enjoy the breeze
+              </div>
+              <div class="carousel-slide1-product text-center">
+                <span>PHANTOM</span> <span class="carousel-slide1-text-bold">DOOR</span> <span>SCREENS</span>
+              </div>
+              <a href="#">
+                <div class="carousel-slide1-button text-center">
+                  <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
+                </div>
+              </a>
+              <img class="img-legacy-logo" src="images/legacy_logo.png">
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/kitchen_img.jpg" alt="carrousel1">
+            <div class="carousel-slide1">
+              <div class="carousel-slide1-tittle">
+                There's nothing like being able to<br>
+                leave your door wide open to enjoy the breeze
+              </div>
+              <div class="carousel-slide1-product text-center">
+                <span>PHANTOM</span> <span class="carousel-slide1-text-bold">DOOR</span> <span>SCREENS</span>
+              </div>
+              <a href="#">
+                <div class="carousel-slide1-button text-center">
+                  <span>GET A</span> <span class="carousel-slide1-text-bold">FREE</span> <span>CONSULTATION</span>
+                </div>
+              </a>
+              <img class="img-legacy-logo" src="images/legacy_logo.png">
+            </div>
+          </div>
         </div>
 
         <!-- Controls -->
