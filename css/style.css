@@ -705,7 +705,7 @@ footer p.social a:hover {
 	border-bottom: 2px solid #f49079;
 }
 
-.tab-pane.active .active .caret_header span:before {
+.active .caret_header span:before {
 	border-color: transparent transparent #fff transparent;
 }
 
@@ -713,7 +713,7 @@ footer p.social a:hover {
 	border-color: #fff;
 }
 
-.tab-pane.active .caret_header span:before {
+.caret_header span:before {
 	display: block;
 	content: "";
 	width: 0px;
@@ -727,7 +727,7 @@ footer p.social a:hover {
 	z-index: 0;
 }
 
-.tab-pane.active .active .caret_header span:after {
+.active .caret_header span:after {
 	border-color: transparent transparent #fff transparent;
 }
 
@@ -735,7 +735,7 @@ footer p.social a:hover {
 	border-color: #fff;
 }
 
-.tab-pane.active .caret_header span:after {
+.caret_header span:after {
 	display: block;
 	content: "";
 	width: 0px;
