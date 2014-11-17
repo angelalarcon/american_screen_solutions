@@ -1033,10 +1033,19 @@ footer p.social a:hover {
 	margin-left: -26px;
 }
 
+.tab-background .triangle.right {
+	left: 79%;
+	border-top: 22px solid #EFEFEF;
+}
+
 .tab-background .tab-content {
 	position: absolute;
 	top: 0;
 	width: 100%;
 	padding-top: 100px;
+}
+
+.top-130 {
+	margin-top: 130px;
 }
 /*DOWNLOAD CENTER*/
