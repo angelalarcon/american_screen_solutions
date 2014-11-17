@@ -38,7 +38,8 @@ body {
 }
 
 a:focus,
-input:focus {
+input:focus,
+select:focus {
 	border: none;
 	outline: 0;
 }
@@ -809,6 +810,7 @@ footer p.social a:hover {
 .waves .nav-tabs.nav-justified>.active>a:hover,
 .waves .nav-tabs.nav-justified>.active>a:focus {
 	border: none;
+	background: none;
 }
 
 .waves .nav-tabs>li>a {
@@ -816,6 +818,8 @@ footer p.social a:hover {
 	color: #000;
 	font-family: 'Raleway Regular';
 	font-weight: bold;
+	position: relative;
+	z-index: 21;
 }
 
 .waves .nav-tabs>li>a:hover {
@@ -977,5 +981,62 @@ footer p.social a:hover {
 	font-size: 14px;
 	padding: 2px 15px;
 	font-weight: bold;
+}
+
+.filter-select {
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+	background-color: #808285;
+	background-image: url(../images/arrow_down.png);
+	background-repeat: no-repeat;
+	background-position: 95% 10px;
+	color: #fff;
+	padding: 5px 25px;
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.filter-select option {
+	background-color: #bcbec0;
+	padding: 5px 25px;
+	color: #fff;
+	margin: 5px;
+	border: none;
+	line-height: 40px !important;
+}
+
+.filter-select option:hover {
+	background: #808285;
+}
+
+.tab-background {
+	margin-top: -60px;
+	position: relative;
+	z-index: 20;
+}
+
+.tab-background img {
+	width: 100%;
+}
+
+.tab-background .triangle {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 22px solid #E8E8E8;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -26px;
+}
+
+.tab-background .tab-content {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-top: 100px;
 }
 /*DOWNLOAD CENTER*/
