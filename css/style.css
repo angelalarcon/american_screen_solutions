@@ -37,7 +37,8 @@ body {
 	font-family: 'Myriad Pro';
 }
 
-a:focus {
+a:focus,
+input:focus {
 	border: none;
 	outline: 0;
 }
@@ -910,3 +911,71 @@ footer p.social a:hover {
 	vertical-align: top;
 }
 /*WAVES*/
+/*DOWNLOAD CENTER*/
+.search-bar input {
+	border: 1px solid #000;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	min-width: 300px;
+	height: 30px;
+	color: #000;
+	text-align: right;
+	padding: 0 10px;
+	margin-bottom: 30px;
+}
+
+.filter {
+	margin-bottom: 20px;
+}
+
+.filter.nav-pills>li.active>a,
+.filter.nav-pills>li.active>a:hover,
+.filter.nav-pills>li.active>a:focus {
+	background-color: #808285;
+	color: #fff;
+	font-weight: normal;
+}
+
+.filter.nav-pills>li>a {
+	font-weight: normal;
+	background-color: #bcbec0;
+	color: #fff;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	margin-bottom: -2px;
+	position: relative;
+	padding: 5px 25px;
+}
+
+.filter.nav-pills>li>a:hover {
+	background-color: #808285;
+	color: #fff;
+	font-weight: normal;
+}
+
+.filter.nav-pills>li>a .arrow-down {
+	float: right;
+	display: none;
+	margin: 5px 0;
+}
+
+.filter.nav-pills>li.active>a .arrow-down {
+	display: block;
+}
+
+.filter-content .option {
+	line-height: 90px;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.btn-mini {
+	font-size: 14px;
+	padding: 2px 15px;
+	font-weight: bold;
+}
+/*DOWNLOAD CENTER*/
