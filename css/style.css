@@ -33,6 +33,11 @@
 	src: url(../fonts/Raleway-Bold.ttf);
 }
 
+@font-face {
+	font-family: 'Savoye Let Plain';
+	src: url(../fonts/savoye_let_plain.ttf);
+}
+
 body {
 	font-family: 'Myriad Pro';
 	overflow-x: hidden;
@@ -1127,6 +1132,10 @@ footer p.social a:hover {
 	display: block;
 }
 
+#carousel-color .item {
+	min-height: 650px;
+}
+
 .sample-circle {
 	width: 50px;
 	height: 50px;
@@ -1236,4 +1245,70 @@ footer p.social a:hover {
 .sample-circle.black {
 	background-color: #141416;
 }
+
+.total-width {
+	width: 100%;
+}
+
+.light-border {
+	border: 2px solid #efefef;
+}
+
+.font-savoye {
+	font-family: 'Savoye Let Plain';
+}
+
+.review-box {
+	position: relative;
+	margin: 50px 0;
+	text-align: center;
+}
+
+.review-box img {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 2;
+}
+
+.review-box .review {
+	box-shadow: inset 10px 0px 20px 2px #b4b4b4;
+	padding: 20px 10px 20px 60px;
+	background-color: #efefef;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	margin-left: -40px;
+	position: relative;
+	z-index: 1;
+	height: 299px;
+}
+
+.custom_products {
+	border: 1px solid #a4a4a4;
+	color: #373737;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Raleway Regular';
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.red-link {
+	color: #f8512b;
+}
+
+#carousel-doors {
+	margin-bottom: 50px;
+}
+
+#carousel-doors .carousel-control {
+	background: none;
+}
+
+#carousel-doors .carousel-control img {
+	margin-top: 200%;
+}
+
 /*DOORS*/
