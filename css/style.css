@@ -35,6 +35,7 @@
 
 body {
 	font-family: 'Myriad Pro';
+	overflow-x: hidden;
 }
 
 a:focus,
@@ -681,7 +682,7 @@ footer p.social a:hover {
 }
 
 .tag {
-	background-color: #bababa;
+	background-color: rgba(0,0,0,0.3);
 	position: absolute;
 	color: #fff;
 	left: 0;
@@ -784,6 +785,12 @@ footer p.social a:hover {
 
 .tabs {
 	position: relative;
+}
+
+.tabs .nav-tabs.nav-justified>.active>a,
+.tabs .nav-tabs.nav-justified>.active>a:hover,
+.tabs .nav-tabs.nav-justified>.active>a:focus {
+	border: none;
 }
 
 .caret_header_out:before {
@@ -1049,3 +1056,184 @@ footer p.social a:hover {
 	margin-top: 130px;
 }
 /*DOWNLOAD CENTER*/
+
+/*DOORS*/
+.menu-sections .img-background {
+	position: relative;
+}
+
+.menu-sections .img-background>img {
+	width: 100%;
+}
+
+.menu-sections .img-background .content {
+	text-shadow: 1px 1px 1px #000;
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	top: 110px;
+}
+
+.top-60 {
+	margin-top: 60px;
+}
+
+.white-section {
+	padding-bottom: 40px;
+	color: #000;
+}
+
+.gray-text {
+	color: #58595b;
+}
+
+.black-hr {
+	border-bottom: 1px solid #000;
+}
+
+.font-raleway-light {
+	font-family: 'Raleway Light';
+}
+
+.line-0 {
+	line-height: 0;
+}
+
+#carousel-color {
+	margin: 30px 0;
+	padding: 40px 0;
+}
+
+#carousel-color .carousel-indicators {
+	bottom: 60px;
+}
+
+#carousel-color .carousel-indicators li {
+	background-color: #b7b7b7;
+	width: 15px;
+	height: 15px;
+	border: none;
+	margin: 0 5px;
+}
+
+#carousel-color .carousel-indicators .active {
+	background-color: #808285;
+	border: none;
+}
+
+#carousel-color small.font-raleway {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	display: block;
+}
+
+.sample-circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin: 0 auto;
+}
+
+.sample-circle.marshmallow {
+	background-color: #f3f3f3;
+	border: 2px solid #e6e7e8;
+}
+
+.sample-circle.quartz {
+	background-color: #eeedea;
+}
+
+.sample-circle.stone {
+	background-color: #e4d8c8;
+}
+
+.sample-circle.chinchilla {
+	background-color: #d2bfb4;
+}
+
+.sample-circle.buffalo {
+	background-color: #77564c;
+}
+
+.sample-circle.silver {
+	background-color: #dedadb;
+}
+
+.sample-circle.shark {
+	background-color: #c6c4c5;
+}
+
+.sample-circle.characoal {
+	background-color: #595456;
+}
+
+.sample-circle.eboni {
+	background-color: #221f1f;
+}
+
+.sample-circle.parchment {
+	background-color: #ece9eb;
+}
+
+.sample-circle.eggshell {
+	background-color: #b8b7ac;
+}
+
+.sample-circle.oatmeal {
+	background-color: #bbb6a1;
+}
+
+.sample-circle.biscotti {
+	background-color: #bbb6a4;
+}
+
+.sample-circle.earth {
+	background-color: #3c2b20;
+}
+
+.sample-circle.stone_2 {
+	background-color: #917f5a;
+}
+
+.sample-circle.bisque {
+	background-color: #ad9c85;
+}
+
+.sample-circle.ashn {
+	background-color: #695d53;
+}
+
+.sample-circle.smoke {
+	background-color: #b3b1b2;
+}
+
+.sample-circle.characoal_2 {
+	background-color: #474848;
+}
+
+.sample-circle.snow {
+	background-color: #e5e1df;
+}
+
+.sample-circle.white {
+	background-color: #eae3d9;
+}
+
+.sample-circle.stone_3 {
+	background-color: #b6a793;
+}
+
+.sample-circle.shitake {
+	background-color: #40342f;
+}
+
+.sample-circle.iron {
+	background-color: #3c2b20;
+}
+
+.sample-circle.black {
+	background-color: #141416;
+}
+/*DOORS*/
