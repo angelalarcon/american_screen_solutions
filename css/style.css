@@ -1283,7 +1283,7 @@ footer p.social a:hover {
 	background-color: #efefef;
 	display: inline-block;
 	text-align: center;
-	width: 50%;
+	width: 60%;
 	margin-left: -40px;
 	position: relative;
 	z-index: 1;
@@ -1365,15 +1365,12 @@ footer p.social a:hover {
 	min-height: 350px;
 }
 
-#carousel-windows_2 {
-	margin-bottom: 50px;
-}
-
-#carousel-windows_2 .carousel-control {
-	background: none;
-}
-
 #carousel-windows_2 .carousel-control img {
-	margin-top: 100%;
+	margin-top: 200%;
 }
 /*DOORS*/
+/*OUTDOORS*/
+.top-50 {
+	margin-top: 50px;
+}
+/*OUTDOORS*/
