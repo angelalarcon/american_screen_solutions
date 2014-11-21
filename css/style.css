@@ -881,6 +881,10 @@ footer p.social a:hover {
 	margin: 0 auto;
 }
 
+.gray-circle img {
+	max-width: 200px;
+}
+
 .comment {
 	padding: 20px 0;
 }
@@ -1377,4 +1381,89 @@ footer p.social a:hover {
 .left-80 {
 	margin-left: 80px;
 }
+
+.sample-circle.white {
+	background-color: #fff;
+	border: 2px solid #eceded;
+}
+
+.sample-circle.silver-almond {
+	background-color: #dfd9c5;
+}
+
+.sample-circle.sandal-wood {
+	background-color: #d9c3a6;
+}
+
+.sample-circle.driftwood-beige {
+	background-color: #998e70;
+}
+
+.sample-circle.bronze {
+	background-color: #695948;
+}
+
+.sample-circle.rideau-brown {
+	background-color: #3e2b17;
+}
+
+.sample-circle.hartford-green {
+	background-color: #003300;
+}
+
+.sample-circle.coastal-gray {
+	background-color: #8f8f84;
+}
+
+.sample-circle.phantom-black {
+	background-color: #000;
+}
+
+.left-130 {
+	margin-left: 130px;
+}
+
+.top-menos-50 {
+	margin-top: -50px;
+}
+
+.line-40 {
+	line-height: 40px;
+}
+
+.left-150 {
+	margin-left: 150px;
+}
+
+#carousel-phantom {
+	margin: 30px 0;
+	padding: 40px 0;
+}
+
+#carousel-phantom .carousel-indicators {
+	bottom: 60px;
+}
+
+#carousel-phantom .carousel-indicators li {
+	background-color: #b7b7b7;
+	width: 15px;
+	height: 15px;
+	border: none;
+	margin: 0 5px;
+}
+
+#carousel-phantom .carousel-indicators .active {
+	background-color: #808285;
+	border: none;
+}
+
+#carousel-phantom small.font-raleway {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	display: block;
+}
+
+/*#carousel-phantom .item {
+	min-height: 900px;
+}*/
 /*OUTDOORS*/
