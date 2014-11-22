@@ -1490,3 +1490,86 @@ footer p.social a:hover {
 	border-bottom: 2px solid #333;
 }
 /*MAGAZINE*/
+/*CONTACT US*/
+section.img-background {
+	position: relative;
+	padding-top: 85px;
+}
+
+section.img-background img {
+	width: 100%;
+}
+
+section.img-background .content {
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+	top: 105px;
+	color: #fff;
+}
+
+.relative {
+	position: relative;
+}
+
+.red-hr {
+	border-top: none;
+	border-bottom: 2px solid #f8512b;
+}
+
+.font-normal {
+	font-weight: normal;
+}
+
+#contact_us_form select {
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+	background-image: url(../images/select_caret.png);
+	background-position: 95% 10px;
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	padding: 5px 10px;
+	color: #444;
+	font-family: 'Raleway Regular';
+	border: none;
+}
+
+#contact_us_form input[type="text"] {
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	padding: 5px 10px;
+	color: #444;
+	font-family: 'Raleway Regular';
+	border: none;
+}
+
+#contact_us_form textarea {
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	padding: 5px 10px;
+	color: #444;
+	font-family: 'Raleway Regular';
+	border: none;
+}
+
+#contact_us_form input::-webkit-input-placeholder {
+	color: #444;
+}
+
+#contact_us_form textarea::-webkit-input-placeholder {
+	color: #444;
+}
+
+.margin-0 {
+	margin: 0;
+}
+
+section.light-waves {
+	padding: 40px 0;
+	position: relative;
+	background-image: url(../images/light_waves.jpg);
+	background-size: 100% 100%;
+}
+/*CONTACT US*/
