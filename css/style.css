@@ -843,7 +843,13 @@ footer p.social a:hover {
 .tabs .nav-tabs.nav-justified>li>a {
 	border: none;
 	background: none;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.tabs .nav-tabs.nav-justified>li.active>a {
 	color: #555;
+	text-shadow: 0 0 0 transparent;
 }
 
 .white_background {
@@ -1064,7 +1070,7 @@ footer p.social a:hover {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	padding-top: 100px;
+	margin-top: 100px;
 }
 
 .top-130 {
@@ -1255,6 +1261,10 @@ footer p.social a:hover {
 
 .sample-circle.black {
 	background-color: #141416;
+}
+
+.sample-circle.linen {
+	background-color: #dfd8c5;
 }
 
 .total-width {
@@ -1572,4 +1582,335 @@ section.light-waves {
 	background-image: url(../images/light_waves.jpg);
 	background-size: 100% 100%;
 }
+
+.top-menos-40 {
+	margin-top: -40px;
+}
+
+.menu-toggle {
+	margin-right: 10px;
+}
 /*CONTACT US*/
+
+@media (max-width: 1000px) {
+	#carousel {
+		margin-top: 20px;
+	}
+	#carousel-home .carousel-slide1-tittle {
+		top: 80px;
+		width: 430px;
+		height: 70px;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.5px;
+	}
+
+	#carousel-home .carousel-slide1-product {
+		left: 40%;
+		width: 260px;
+		height: 50px;
+		padding-top: 15px;
+		font-size: 16px;
+		letter-spacing: 0.5px;
+	}
+
+	#carousel-home .carousel-slide1-button {
+		top: 65%;
+		left: 40.5%;
+		width: 250px;
+		height: 40px;
+		padding: 10px 0 0 0;
+		font-size: 14px;
+	}
+	.slide-border p {
+		font-size: 10px;
+		line-height: 20px !important;
+	}
+	.slide-border .review {
+		margin-left: 60px;
+	}
+	.slide-border p.big {
+		font-size: 30px;
+		line-height: 40px!important;
+	}
+	.slide-border .left {
+		left: 15px;
+	}
+	.slide-border .right {
+		right: 15px;
+	}
+	.slide-border .bottom {
+		bottom: 15px;
+	}
+	.bottom-space {
+		margin-bottom: 13px;
+	}
+	.tab-background .tab-content {
+		color: #fff;
+		text-shadow: 1px 1px 1px #000;
+	}
+	.tab-background .tab-content .top-50 {
+		margin-top: 0;
+	}
+	.nav-tabs.nav-justified>li {
+		display: table-cell;
+		width: 1%;
+	}
+	.nav-tabs.nav-justified>li .caret_header {
+		top: 0px;
+	}
+}
+
+@media (max-width: 900px) {
+	body {
+		padding-top: 50px;
+	}
+	#carousel-home .carousel-slide1-product {
+		left: 35%;
+	}
+
+	#carousel-home .carousel-slide1-button {
+		left: 35.5%;
+	}
+}
+
+@media (max-width: 800px) {
+	#carousel-home .carousel-slide1-product {
+		left: 30%;
+	}
+
+	#carousel-home .carousel-slide1-button {
+		left: 30.5%;
+	}
+	.step-tittle-text {
+		text-align: center;
+	}
+	.step-text {
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 768px) {
+	body {
+		padding-top: 80px;
+	}
+	.logo {
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	header .menu-links {
+		font-size: 15px;
+		padding: 34px 10px;
+	}
+	header .menu-links:hover {
+		border-top: 1px solid #dadada;
+	}
+	#carousel-home .carousel-slide1-tittle {
+		width: 320px;
+		height: 56px;
+		font-size: 12px;
+		line-height: 18px;
+		letter-spacing: 0;
+	}
+	#carousel-home .carousel-slide1-product {
+		left: 30%;
+		width: 190px;
+		height: 40px;
+		padding-top: 10px;
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+
+	#carousel-home .carousel-slide1-button {
+		left: 28.5%;
+		top: 65%;
+		width: 210px;
+		height: 25px;
+		padding: 5px 0 0 0;
+		font-size: 12px;
+	}
+	.img-legacy-logo {
+		width: 100px;
+	}
+	.slide-border p {
+		font-size: 10px;
+		line-height: 20px !important;
+	}
+	.slide-border p.big {
+		font-size: 20px;
+		line-height: 30px!important;
+	}
+	.slide-border .review {
+		margin-left: 40px;
+	}
+	.slide-border .left {
+		left: 15px;
+	}
+	.slide-border .right {
+		right: 15px;
+	}
+	.slide-border .bottom {
+		bottom: 15px;
+	}
+	.slide-border .slide-logo {
+		width: 70px;
+	}
+	.tab-background {
+		margin-top: -70px;
+	}
+	.tab-background .tab-content {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 650px) {
+	.tab-background .tab-content {
+		margin-top: 70px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	#carousel {
+		margin-top: 40px;
+	}
+	#carousel-home .carousel-slide1-tittle {
+		top: 60px;
+		width: 80%;
+		left: 10%;
+		text-align: center;
+	}
+	#carousel-home .carousel-slide1-product {
+		top: 130px;
+		left: 50%;
+		margin-left: -95px;
+	}
+	#carousel-home .carousel-slide1-button {
+		top: 180px;
+		left: 50%;
+		margin-left: -105px;
+
+	}
+	.img-legacy-logo {
+		width: 50px;
+		bottom: 10%;
+		right: 10%;
+	}
+	#carousel-home .indicators {
+		bottom: 0;
+	}
+	#carousel-home .carousel-indicators li {
+		width: 30px !important;
+	}
+	#carousel-home .control-left {
+		left: 1%;
+	}
+	#carousel-home .control-right {
+		right: 1%;
+	}
+	.slide-border .bottom {
+		display: none;
+	}
+	.slide-border p.big {
+		font-size: 14px;
+	}
+	.slide-border .review {
+		margin-left: 27px;
+		width: 30px;
+	}
+	#carousel-slide .carousel-indicators {
+		bottom: 10px;
+	}
+	.slide-border .professional {
+		width: 30px;
+	}
+	.slide-border .check {
+		width: 30px;
+	}
+}
+
+@media (max-width: 530px) {
+	#carousel {
+		margin-top: 80px;
+	}
+	.menu-toggle-text {
+		display: none;
+	}
+	#carousel-home .carousel-slide1-tittle {
+		top: 20px;
+	}
+	#carousel-home .carousel-slide1-product {
+		top: 85px;
+	}
+	#carousel-home .carousel-slide1-button {
+		top: 135px;
+	}
+	#carousel-home .control-left {
+		left: 1%;
+		top: 50%;
+		margin-top: -30px;
+	}
+	#carousel-home .control-right {
+		right: 1%;
+		top: 50%;
+		margin-top: -30px;
+	}
+	.tab-background {
+		margin-top: -85px;
+	}
+	.tabs .nav-tabs.nav-justified>li>a {
+		font-size: 12px;
+		padding: 0;
+	}
+	.tab-background .triangle.right {
+		left: 83%;
+	}
+}
+
+@media (max-width: 400px) {
+	header .menu-links {
+		font-size: 12px;
+		padding: 33px 6px;
+	}
+	#carousel-home .carousel-slide1-tittle {
+		top: 10px;
+		padding: 5px;
+		width: 70%;
+		left: 15%;
+		height: 50px;
+		font-size: 8px;
+	}
+	#carousel-home .carousel-slide1-product {
+		top: 70px;
+		padding-top: 5px;
+		height: 30px;
+	}
+	#carousel-home .carousel-slide1-button {
+		top: 110px;
+		width: 180px;
+		height: 18px;
+		padding: 3px 0 0 0;
+		font-size: 10px;
+		margin-left: -90px;
+	}
+	#carousel-home .control-left {
+		left: 1%;
+		top: 50%;
+		margin-top: -30px;
+	}
+	#carousel-home .control-right {
+		right: 1%;
+		top: 50%;
+		margin-top: -30px;
+	}
+	.img-legacy-logo {
+		right: 1%;
+	}
+	#carousel-home .indicators {
+		bottom: -10px;
+	}
+	#carousel-home .carousel-indicators li {
+		width: 20px !important;
+	}
+}
