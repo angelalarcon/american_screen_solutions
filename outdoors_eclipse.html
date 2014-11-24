@@ -8,6 +8,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jquery.mmenu.css" type="text/css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -69,8 +70,11 @@
         </div>
         <div class="col-md-2 pull-right">
           <div class="menu-toggle">
-            <div class="menu-toggle-text">MENU</div>
-            <a href="#" data-toggle="modal" data-target="#side_menu">
+            <!-- <a href="#" data-toggle="modal" data-target="#side_menu">
+              <img src="images/menu_icon.png" alt="menu_icon">
+            </a> -->
+            <a href="#my-menu">
+              <div class="menu-toggle-text">MENU</div>
               <img src="images/menu_icon.png" alt="menu_icon">
             </a>
           </div>
@@ -179,6 +183,104 @@
 
         </div>
       </header>
+
+      <nav id="my-menu">
+        <a href="#" id="my-button" class="pull-right">
+          <img src="images/side_menu_close.png" alt="">
+        </a>
+        <p>
+          <a class="main-link" href="doors_phantom_legacy.html">
+            DOOR PRODUCTS
+          </a><br>
+          <a href="doors_phantom_legacy.html">
+            Retractable Screen / Phantom
+          </a><br>
+          <a href="#">
+            Interior Shade / HunterDouglas
+          </a><br>
+          <a href="doors_centor.html">
+            Retractable Screen / Centor
+          </a>
+        </p>
+        <p>
+          <a class="main-link" href="windows_serene.html">
+            WINDOW PRODUCTS
+          </a><br>
+          <a href="windows_serene.html">
+            Retractable Screen / Phantom
+          </a><br>
+          <a href="#">
+            Interior Shade / HunterDouglas
+          </a>
+        </p>
+        <p>
+          <a class="main-link" href="outdoors_phantom.html">
+            OUTDOOR PRODUCTS
+          </a><br>
+          <a href="outdoors_phantom.html">
+            Retractable Screen / Phantom
+          </a><br>
+          <a class="red-link" href="outdoors_eclipse.html">
+            Retractable Awning / Eclipse
+            <img class="open" src="images/open_icon.png" alt="">
+          </a><br>
+          <a href="outdoors_eclipse.html">
+            Retractable Solar Screen / Eclipse
+          </a><br>
+          <a href="outdoors_eclipse.html">
+            Sunroof / Eclipse
+          </a><br>
+          <a href="#">
+            Retractable Screen / Centor
+          </a><br>
+          <a href="outdoors_nautilus.html">
+            Hurricane Rolling Shutter / Nautilus
+          </a>
+        </p>
+        <p>
+          <a class="main-link" href="story.html">
+            OUR COMPANY
+          </a><br>
+          <a href="story.html">
+            Story
+          </a><br>
+          <a href="review.html">
+            Reviews
+          </a><br>
+          <a href="ourpartners.html">
+            Our Partners
+          </a>
+        </p>
+        <p>
+          <a class="main-link" href="downloadcenter.html">
+            PROFESSIONAL CENTER
+          </a><br>
+          <a href="downloadcenter.html">
+            Download Center
+          </a><br>
+          <a href="forarchitects.html">
+            Architects and Builders
+          </a><br>
+          <a href="becomeadelaer.html">
+            Become a Dealer
+          </a>
+        </p>
+        <p>
+          <a class="main-link" href="contactus.html">
+            CONTACT US
+          </a><br>
+          <a href="#">
+            <strong>Customer Information Center</strong>
+          </a><br>
+          <a href="#">
+            Free Professional Consultation
+          </a><br>
+          <a href="#">
+            Newsletter
+          </a>
+        </p>
+      </nav>
+
       <section class="menu-sections">
         <div class="tag">OUTDOORS</div>
 
@@ -189,13 +291,19 @@
               <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4 text-center">
                   <p>
-                    <img class="top-50" src="images/retractable_awning.png" alt="">
+                    <a href="#">
+                      <img class="top-50" src="images/retractable_awning.png" alt="">
+                    </a>
                   </p>
                   <p>
-                    <img src="images/retractable_solar_screen.png" alt="">
+                    <a href="#">
+                      <img src="images/retractable_solar_screen.png" alt="">
+                    </a>
                   </p>
                   <p>
-                    <img src="images/sunroof.png" alt="">
+                    <a href="#">
+                      <img src="images/sunroof.png" alt="">
+                    </a>
                   </p>
                 </div>
                 <div class="col-xs-6 ol-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1 text-right">
@@ -570,5 +678,7 @@
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.mmenu.min.js" type="text/javascript"></script>
       </body>
       </html>

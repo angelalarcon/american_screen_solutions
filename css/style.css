@@ -58,6 +58,37 @@ header {
 	background-color: white;
 	z-index: 90;
 	padding: 15px 0;
+	border-bottom: 1px solid #dadada;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+header .logo {
+	width: 100%;
+	max-width: 200px;
+}
+
+header.small .logo {
+	width: 150px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+header.small .menu-toggle {
+	line-height: 25px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+header.small .menu-links {
+	padding: 26px 10px;
+	line-height: 40px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
 }
 
 header a {
@@ -65,7 +96,7 @@ header a {
 }
 
 header .menu-links {
-	padding: 36px 10px;
+	padding: 34px 10px;
 	line-height: 50px;
 	border-right: 1px solid transparent;
 	border-left: 1px solid transparent;
@@ -77,7 +108,6 @@ header .menu-links:hover {
 	background-color: transparent;
 	background-color: #fff;
 	position: relative;
-	z-index: 999;
 }
 
 header .menu-links {
@@ -86,7 +116,7 @@ header .menu-links {
 	font-size: 15px;
 }
 
-header .modal-dialog {
+/*header .modal-dialog {
 	position: absolute;
 	width: 250px;
 	right: 0;
@@ -123,7 +153,7 @@ header .modal-dialog .modal-content a {
 
 header .modal-dialog .modal-content a:hover {
 	text-decoration: underline !important;
-}
+}*/
 
 .modal-backdrop.in {
 	display: none;
@@ -144,6 +174,7 @@ header .modal-dialog .modal-content a:hover {
 .menu-toggle-text {
 	float: left;
 	margin: 4px;
+	color: #6d6e72;
 }
 
 .short-borders {
@@ -176,6 +207,7 @@ header .modal-dialog .modal-content a:hover {
 	border-top: 1px solid #dadada;
 	border-bottom: 1px solid #dadada;
 	margin-top: -1px;
+	z-index: -1;
 }
 
 .hover-dropdown a {
@@ -643,6 +675,8 @@ header .modal-dialog .modal-content a:hover {
 }
 footer {
 	font-size: 20px;
+	position: relative;
+	z-index: -1;
 }
 footer a {
 	color: #000;
@@ -1386,6 +1420,21 @@ footer p.social a:hover {
 }
 /*DOORS*/
 /*OUTDOORS*/
+.mesh-circle {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 12%;
+}
+
+.mesh-circle small {
+	font-size: 9px;
+}
+
+.mesh-title {
+	font-size: 12px;
+}
+
 .top-50 {
 	margin-top: 50px;
 }
@@ -1592,6 +1641,43 @@ section.light-waves {
 	margin-right: 10px;
 }
 /*CONTACT US*/
+
+.mm-menu {
+	background-image: url(../images/side_menu_background.jpg);
+	background-size: 100% 100%;
+	padding: 20px;
+	margin-left: 0 !important;
+}
+
+.mm-menu .main-link {
+	color: #58595b;
+	font-size: 18px;
+}
+
+.mm-menu .red-link {
+	color: #f8512b;
+}
+
+.mm-menu .open {
+	margin-left: 10px;
+}
+
+.mm-menu a {
+	color: #000;
+	text-decoration: none;
+}
+
+.mm-menu a:hover {
+	text-decoration: underline !important;
+}
+
+.mm-opened header {
+	z-index: -1;
+}
+
+.mm-page {
+	overflow: hidden;
+}
 
 @media (max-width: 1200px) {
 	.caret_header_out:before {
