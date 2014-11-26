@@ -67,6 +67,9 @@ header {
 header .logo {
 	width: 100%;
 	max-width: 200px;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
 }
 
 header.small .logo {
@@ -1669,10 +1672,6 @@ section.light-waves {
 
 .mm-menu a:hover {
 	text-decoration: underline !important;
-}
-
-.mm-opened header {
-	z-index: -1;
 }
 
 .mm-page {

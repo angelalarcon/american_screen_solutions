@@ -20,16 +20,17 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
-  z-index: 0; }
+  z-index: 0;
+   }
 
 .mm-menu {
   background: inherit;
   display: block;
   overflow: hidden;
   padding: 0; }
-  .mm-menu > .mm-panel {
+  .mm-menu {
     background: inherit;
     -webkit-overflow-scrolling: touch;
     overflow: scroll;
@@ -42,19 +43,19 @@
     -ms-transform: translate(100%, 0);
     -o-transform: translate(100%, 0);
     transform: translate(100%, 0); }
-    .mm-menu > .mm-panel.mm-opened {
-      -webkit-transform: translate(0%, 0);
-      -moz-transform: translate(0%, 0);
-      -ms-transform: translate(0%, 0);
-      -o-transform: translate(0%, 0);
-      transform: translate(0%, 0); }
-    .mm-menu > .mm-panel.mm-subopened {
+    .mm-menu.mm-opened {
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      -o-transform: translate(0, 0);
+      transform: translate(0, 0); }
+    .mm-menu.mm-panel.mm-subopened {
       -webkit-transform: translate(-30%, 0);
       -moz-transform: translate(-30%, 0);
       -ms-transform: translate(-30%, 0);
       -o-transform: translate(-30%, 0);
       transform: translate(-30%, 0); }
-    .mm-menu > .mm-panel.mm-highest {
+    .mm-menu.mm-highest {
       z-index: 1; }
   .mm-menu .mm-list {
     padding: 20px 0; }
@@ -277,11 +278,11 @@ html.mm-blocking #mm-blocker {
 }
 
 html.mm-opening .mm-slideout {
-  -webkit-transform: translate(80%, 0);
-  -moz-transform: translate(80%, 0);
-  -ms-transform: translate(80%, 0);
-  -o-transform: translate(80%, 0);
-  transform: translate(80%, 0); }
+  -webkit-transform: translate(-250px, 0);
+  -moz-transform: translate(-250px, 0);
+  -ms-transform: translate(-250px, 0);
+  -o-transform: translate(-250px, 0);
+  transform: translate(-250px, 0); }
 
 @media all and (max-width: 175px) {
   html.mm-opening .mm-slideout {
@@ -292,8 +293,8 @@ html.mm-opening .mm-slideout {
     transform: translate(140px, 0); } }
 @media all and (min-width: 550px) {
   html.mm-opening .mm-slideout {
-    -webkit-transform: translate(250px, 0);
-    -moz-transform: translate(250px, 0);
-    -ms-transform: translate(250px, 0);
-    -o-transform: translate(250px, 0);
-    transform: translate(250px, 0); } }
+    -webkit-transform: translate(-250px, 0);
+    -moz-transform: translate(-250px, 0);
+    -ms-transform: translate(-250px, 0);
+    -o-transform: translate(-250px, 0);
+    transform: translate(-250px, 0); } }
