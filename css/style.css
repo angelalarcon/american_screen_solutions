@@ -158,6 +158,48 @@ header .modal-dialog .modal-content a:hover {
 	text-decoration: underline !important;
 }*/
 
+.title_icon {
+	position: relative;
+	text-align: center;
+	width: 200px;
+	margin: 50px auto;
+	padding: 10px 0;
+	color: #fff;
+	font-family: 'Raleway SemiBold';
+}
+
+.no-decoration:hover {
+	text-decoration: none;
+}
+
+.title_icon .icon_1 {
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin-left: -16px;
+}
+
+.title_icon .icon_2 {
+	position: absolute;
+	margin-top: -17px;
+	top: 50%;
+	left: 0;
+}
+
+.title_icon .icon_3 {
+	position: absolute;
+	margin-top: -17px;
+	top: 50%;
+	right: 0;
+}
+
+.title_icon .icon_4 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -67px;
+}
+
 .modal-backdrop.in {
 	display: none;
 }
@@ -1688,9 +1730,6 @@ section.light-waves {
 }
 
 @media (max-width: 1000px) {
-	body {
-		padding-top: 168px;
-	}
 	.tag {
 		top: 185px;
 	}
@@ -1831,6 +1870,9 @@ section.light-waves {
 
 
 @media (max-width: 768px) {
+	body {
+		padding-top: 144px;
+	}
 	.carousel-inner .top-menos-20 {
 		margin-top: 0;
 	}
